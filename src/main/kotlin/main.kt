@@ -9,6 +9,6 @@ fun main() {
         h1 {
             +"Students"
         }
-        rsubject(lessonList)
+        rlesson(lessonList)
     }
 }
