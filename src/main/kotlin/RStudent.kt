@@ -13,7 +13,7 @@ interface RStudentProps : RProps {
 
 val RFStudent =
     functionalComponent<RStudentProps> {
-        span(
+        span (
             if(it.present) "present" else "absent"
         ){
             +"${it.student.firstname} ${it.student.surname}"
@@ -21,7 +21,7 @@ val RFStudent =
         }
     }
 
-fun RBuilder.rstudent(student: Student, present: Boolean, onClick: (Event)-> Unit) =
+fun RBuilder.rstudent(student: Student, present: Boolean, onClick: (Event)->Unit) =
     child(RFStudent) {
         attrs.student = student
         attrs.present = present
