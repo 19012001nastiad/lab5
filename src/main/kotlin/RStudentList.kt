@@ -25,5 +25,3 @@ fun RBuilder.rstudentlist(students: Array<Student>, present: Array<Boolean>, onC
         attrs.present = present
         attrs.onClick = onClick
     }
-
-
