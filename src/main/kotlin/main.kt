@@ -1,8 +1,5 @@
-import data.lesson
-import data.studentList
+import data.lessonList
 import react.dom.h1
-import react.dom.li
-import react.dom.ol
 import react.dom.render
 import kotlin.browser.document
 
@@ -12,6 +9,6 @@ fun main() {
         h1 {
             +"Students"
         }
-        lesson()
+        rsubject(lessonList)
     }
 }
