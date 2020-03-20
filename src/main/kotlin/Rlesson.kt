@@ -40,7 +40,7 @@ class RLesson : RComponent<RLessonList, RSubjectState>() {
     }
 }
 
-    fun RBuilder.rsubject(subject:  ArrayList<Lesson> ) =
+    fun RBuilder.rlesson(subject:  ArrayList<Lesson> ) =
     child( RLesson::class)
     {
         attrs.subject = subject.toTypedArray()
